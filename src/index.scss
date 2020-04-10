@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Bahnscrift';
+    src: local('Bahnscrift'), url(./fonts/Bahnscrift-font/BAHNSCHRIFT.TTF) format('truetype');
+  }
+
+.body{
+    font-family: Bahnscrift
+}

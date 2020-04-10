@@ -9,15 +9,26 @@ import {
     Switch,
     Route
   } from 'react-router-dom'
+import styled from 'styled-components'
+import './fonts/Bahnscrift-font/BAHNSCHRIFT\ 14.TTF'
+
+const BackgroundBlack = styled.div`
+    background-color: black;
+    height: 100%;
+`;
 
   ReactDOM.render(
-    <Router>
+    <BackgroundBlack>
+     <Router>
       <div className='page-full'>
         <Switch>
           <Route exact path='/' component={Home} />
         </Switch>
       </div>
     </Router>
+
+    </BackgroundBlack>
+   
     , document.getElementById('root')
   )
 //ReactDOM.render(<App />, document.getElementById('root'));
