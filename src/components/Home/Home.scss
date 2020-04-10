@@ -5,13 +5,77 @@
     background-size: cover;
     height: 100vh;
     display: flex;
+
+    .youtube-canvas{
+      display: flex;
+      width: 30rem;
+    }
+
+    .page-group{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 14rem;
+      margin-left: auto;
+      margin-right: 9rem;
+      overflow: auto;
+
+      iframe, img{
+        align-content: space-between;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 6px 6px 6px 6px;
+        width:40rem;
+        height:25rem;
+      }
+
+    }
 }
 
+@media (max-width: 1480px){
+  .page-full{
+    background: url("../../images/background-moy.png") no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position-x: center;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 4rem;
 
+    .youtube-canvas{
+      margin: 0.8rem;
+      display: flex;
+      width: 30rem;
+      margin-left: auto;
+      flex-direction: column;
+    }
+    
+    .page-group{
+      height: 50%;
+      width: 51%;
+      margin: auto 22% 7rem auto;
 
-@media (max-width: 768px){
+      iframe, img{
+        width:30rem;
+        height:20rem;
+        align-content: space-around;
+        margin: 1rem auto;
+        border: 2px solid #E1E1E1;
+      }
+    }
+ 
+      iframe, img{
+        border: 3px solid #E1E1E1;
+        border-radius: 6px 6px 6px 6px;
+        width:auto;
+        height:1.5rem;
+      }
+  }
+}
+
+@media (max-width: 820px){
     .page-full{
-      background: url("../../images/background-min.png") no-repeat;
+      background: url("../../images/background-moy.png") no-repeat;
       height: 100vh;
       background-size: cover;
       background-position-x: center;
@@ -19,5 +83,78 @@
       justify-content: right;
       align-items: center;
       padding-right: 4rem;
+
+
+    .youtube-canvas{
+      margin: 0.8rem;
+      display: flex;
+      width: 30rem;
+      margin-left: auto;
+      flex-direction: column;
     }
-}  
+    
+    .page-group{
+      height: 49%;
+      width: 43%;
+      margin: auto 24% 2rem auto;
+
+      iframe, img{
+        width:18rem;
+        height:12rem;
+        align-content: space-around;
+        margin: 1rem auto;
+        border: 2px solid #E1E1E1;
+      }
+    }
+ 
+      iframe, img{
+        border: 3px solid #E1E1E1;
+        border-radius: 6px 6px 6px 6px;
+        width:auto;
+        height:1.5rem;
+      }
+    
+  }
+}
+
+@media (max-width: 450px) {
+  .page-full{
+    background: url("../../images/background-min.png") no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position-x: center;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 4rem;
+
+
+  .youtube-canvas{
+    margin: 0.8rem;
+    display: flex;
+    width: 30rem;
+    margin-left: auto;
+    flex-direction: column;
+  }
+  .page-group{
+  height: 46%;
+  width: 96%;
+  margin: auto -11% 2rem auto;
+  iframe, img{
+    width:15rem;
+    height:15rem;
+    align-content: space-around;
+    margin: 1rem auto;
+    border: 2px solid #E1E1E1;
+  }
+}
+
+iframe, img{
+  border: 3px solid #E1E1E1;
+  border-radius: 6px 6px 6px 6px;
+  width:auto;
+  height:1.5rem;
+}
+
+}
+}

@@ -10,6 +10,7 @@ import {
     Route
   } from 'react-router-dom'
 import styled from 'styled-components'
+import './fonts/Bahnscrift-font/BAHNSCHRIFT\ 14.TTF'
 
 const BackgroundBlack = styled.div`
     background-color: black;
