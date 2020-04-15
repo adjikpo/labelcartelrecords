@@ -11,6 +11,7 @@ import {
   } from 'react-router-dom'
 import styled from 'styled-components'
 import './fonts/Bahnscrift-font/BAHNSCHRIFT\ 14.TTF'
+import Header from './components/Header/Header'
 
 const BackgroundBlack = styled.div`
     background-color: black;
@@ -19,6 +20,7 @@ const BackgroundBlack = styled.div`
 
   ReactDOM.render(
     <BackgroundBlack>
+      <Header/>
      <Router>
       <div className='page-full'>
         <Switch>
