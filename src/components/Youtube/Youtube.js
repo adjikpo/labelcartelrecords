@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../index.scss'
 import styled from 'styled-components'
+import { FaInstagram } from "react-icons/fa";
 
 const ColorWhite = styled.h1`
     
@@ -20,7 +21,8 @@ const Youtube = () => {
         <div>
             <ColorWhite>Bambina - Papillon</ColorWhite>
             <iframe src={`${BASE_URL}`}/>
-            <ColorWhite>Ep Bientôt disponible !</ColorWhite>
+            <ColorWhite>Ep disponible le 15 mai</ColorWhite>
+            <ColorWhite>Suivez la sur <a href= "https://instagram.com/bambinaofficiel?igshid=14uk6xysfofgo"> Instagram<FaInstagram/></a></ColorWhite>
         </div>
     )
 }
